@@ -1,4 +1,9 @@
 <form action="password">
-    #also possible with {% url 'password' %}
-    <input type="submit" value="press">
+    <select name="length of the password">
+        <option value="6">6</option>
+        <option value="9">9</option>
+        <option value="12">12</option>
+    </select>
+    <!-- also possible with {% url 'password' %} -->
+    <input type="submit" value="generate your password">
 </form>
